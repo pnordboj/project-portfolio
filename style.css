@@ -60,6 +60,11 @@ a:active {
     height: auto;
 }
 
+#project-text {
+    text-align: center;
+    top: 20;
+}
+
 /* --- Media Queries --- */
 
 @media only screen and (max-width: 380px) {
