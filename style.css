@@ -6,22 +6,28 @@
     font-family: "Montserrat", "sans-serif";
 }
 
-body {
-    background-color: #e7ecf1;
-}
-
 /* --- Header --- */
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 a, a:active, a:visited {
@@ -36,25 +42,22 @@ a:active {
 
 .school-work {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .work-card {
     border: 1px solid;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 600px;
     width: 100%;
-    height: 100%;
     background-color: #e7ecf1;
 }
 
 .work-card img {
-    max-width: 500px;
-    max-height: 500px;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 /* --- Media Queries --- */
