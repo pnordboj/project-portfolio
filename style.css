@@ -28,6 +28,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    margin-top: 100px;
 }
 
 a, a:active, a:visited {
@@ -62,7 +63,7 @@ a:active {
 
 #project-text {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 /* --- Media Queries --- */
