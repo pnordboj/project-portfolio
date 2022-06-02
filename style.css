@@ -62,7 +62,7 @@ a:active {
 
 #project-text {
     text-align: center;
-    top: 250;
+    margin-top: 200px;
 }
 
 /* --- Media Queries --- */
