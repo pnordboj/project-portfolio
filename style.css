@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-#work-img {
+.work-card img {
     width: 30%;
     height: auto;
 }
