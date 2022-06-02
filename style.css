@@ -46,7 +46,6 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5%;
     margin: 0 auto;
     margin-bottom: 150px;
 }
@@ -55,6 +54,7 @@ a:active {
     border: 1px solid;
     max-width: 600px;
     width: 100%;
+    gap: 5%;
     background-color: #e7ecf1;
 }
 
