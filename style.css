@@ -6,6 +6,7 @@
 
 .school-work {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -17,7 +18,7 @@
 }
 
 .work-card img {
-    width: 30%;
+    width: 100%;
     height: auto;
 }
 
