@@ -10,7 +10,7 @@
 
 .school-work {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
