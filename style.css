@@ -16,6 +16,11 @@
     width: 100%;
 }
 
+#work-img {
+    width: 30%;
+    height: auto;
+}
+
 /* --- Media Queries --- */
 
 @media only screen and (max-width: 380px) {
