@@ -9,7 +9,24 @@
 /* --- Header --- */
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* --- Home Page --- */
@@ -26,15 +43,12 @@ header {
     border: 1px solid;
     max-width: 600px;
     width: 100%;
+    background-color: #94bbe9;
 }
 
 .work-card img {
     width: 100%;
     height: auto;
-}
-
-.text-container {
-    background-color: #94bbe9;
 }
 
 /* --- Media Queries --- */
