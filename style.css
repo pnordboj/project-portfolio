@@ -6,28 +6,22 @@
     font-family: "Montserrat", "sans-serif";
 }
 
+body {
+    background-color: #e7ecf1;
+}
+
 /* --- Header --- */
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 a, a:active, a:visited {
