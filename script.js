@@ -24,7 +24,7 @@ function darkMode() {
         buttonText.innerHTML = "Dark mode ON";
 
     } else {
-        workContainer.style.backgroundColor = "#aaa9ad";
+        workContainer.style.backgroundColor = "";
         workContainer.style.color = "#343d46";
 
         header.style.backgroundColor = "#343d46";
