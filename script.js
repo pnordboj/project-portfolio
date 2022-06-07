@@ -48,5 +48,3 @@ function darkMode() {
     }
 
 }
-
-//<a href="https://www.flaticon.com/free-icons/dark-mode" title="dark-mode icons">Dark-mode icons created by Freepik - Flaticon</a>
