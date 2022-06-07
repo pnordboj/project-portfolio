@@ -4,11 +4,12 @@ function darkMode() {
     const label = document.querySelector(".form-switch");
     const buttonText = document.querySelector("#buttonText");
     const workContainer = document.querySelector(".school-work");
+    const body = document.querySelector("body");
     const header = document.querySelector("header");
     const footer = document.querySelector("footer");
 
     if (checkbox.checked === true) {
-        workContainer.style.backgroundColor = "#343d46";
+        body.style.backgroundColor = "#343d46";
         workContainer.style.color = "#aaa9ad";
 
         header.style.backgroundColor = "#aaa9ad";
@@ -24,6 +25,7 @@ function darkMode() {
         buttonText.innerHTML = "Dark mode ON";
 
     } else {
+        body.style.backgroundColor = "";
         workContainer.style.backgroundColor = "";
         workContainer.style.color = "#343d46";
 
