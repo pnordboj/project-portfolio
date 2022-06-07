@@ -13,7 +13,7 @@ function darkMode() {
         body.style.backgroundColor = "#343d46";
         workContainer.style.color = "#aaa9ad";
 
-        cardText.style.color = "#aaa9ad"
+        cardText.style.color = "#14181b"
 
         header.style.backgroundColor = "#aaa9ad";
         header.style.color = "#343d46";
