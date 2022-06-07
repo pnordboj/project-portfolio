@@ -11,9 +11,8 @@ You can add some bullet points if you'd like to:
 
 ### Key Features
 
-- Dynamic Website
 - Mobile first design
-- Easy to use
+- Easy to navigate
 
 ## Built With
 
