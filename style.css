@@ -12,7 +12,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    background-color: #343d46;
+    color: #aaa9ad;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,7 +24,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
+    background-color: #343d46;
+    color: #aaa9ad;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -55,12 +57,19 @@ a:active {
     max-width: 600px;
     width: 100%;
     gap: 5%;
-    background-color: #e7ecf1;
+    box-shadow: 0 4px 8px 0 #14181b;
+    transition: 0.5s;
+    background-color: #aaa9ad;
 }
 
 .work-card img {
     width: 100%;
     height: auto;
+}
+
+.work-card:hover {
+    width: 105%;
+    box-shadow: 0 8px 16px 0 #14181b;
 }
 
 #project-text {
