@@ -9,8 +9,9 @@
 /* Provided by https://www.cssscript.com/realistic-ios-switch-pure-css/ */
 
 .form-switch {
-    display: inline-block;
-    margin-left: 80%;
+    display: flex;
+    margin-left: 75%;
+    flex-direction: row;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }

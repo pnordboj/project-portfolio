@@ -21,23 +21,23 @@ function darkMode() {
         header.style.transition = "0.5s";
         footer.style.transition = "0.5s";
 
-        buttonText.innerHTML = "Light mode ON";
+        buttonText.innerHTML = "Dark mode ON";
 
     } else {
-        workContainer.style.backgroundColor = "#343d46";
-        workContainer.style.color = "#aaa9ad";
+        workContainer.style.backgroundColor = "#aaa9ad";
+        workContainer.style.color = "#343d46";
 
-        header.style.backgroundColor = "#aaa9ad";
-        header.style.color = "#343d46";
+        header.style.backgroundColor = "#343d46";
+        header.style.color = "#aaa9ad";
 
-        footer.style.backgroundColor = "#aaa9ad";
-        footer.style.color = "#343d46";
+        footer.style.backgroundColor = "#343d46";
+        footer.style.color = "#aaa9ad";
 
         workContainer.style.transition = "0.5s";
         header.style.transition = "0.5s";
         footer.style.transition = "0.5s";
 
-        buttonText.innerHTML = "Dark Mode ON";
+        buttonText.innerHTML = "Light Mode ON";
 
     }
 
