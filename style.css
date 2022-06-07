@@ -72,7 +72,7 @@ a:active {
     width: 100%;
     margin-top: 2%;
     margin-bottom: 4%;
-    position: static;
+    position: fixed;
     top: 50;
     bottom: 50;
     left: 50;
