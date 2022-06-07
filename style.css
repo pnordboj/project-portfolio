@@ -10,6 +10,7 @@
 
 .form-switch {
     display: inline-block;
+    margin-left: 80%;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }
