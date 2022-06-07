@@ -4,6 +4,7 @@ function darkMode() {
     const label = document.querySelector(".form-switch");
     const buttonText = document.querySelector("#buttonText");
     const workContainer = document.querySelector(".school-work");
+    const cardText = document.querySelector(".text-container");
     const body = document.querySelector("body");
     const header = document.querySelector("header");
     const footer = document.querySelector("footer");
@@ -11,6 +12,8 @@ function darkMode() {
     if (checkbox.checked === true) {
         body.style.backgroundColor = "#343d46";
         workContainer.style.color = "#aaa9ad";
+
+        cardText.style.color = "#aaa9ad"
 
         header.style.backgroundColor = "#aaa9ad";
         header.style.color = "#343d46";
@@ -26,8 +29,9 @@ function darkMode() {
 
     } else {
         body.style.backgroundColor = "";
-        workContainer.style.backgroundColor = "";
         workContainer.style.color = "#343d46";
+
+        cardText.style.color = ""
 
         header.style.backgroundColor = "#343d46";
         header.style.color = "#aaa9ad";
