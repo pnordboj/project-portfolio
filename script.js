@@ -25,7 +25,7 @@ function darkMode() {
         header.style.transition = "0.5s";
         footer.style.transition = "0.5s";
 
-        buttonText.innerHTML = "Dark mode ON";
+        buttonText.innerHTML = "Dark Mode ON";
 
     } else {
         body.style.backgroundColor = "";
