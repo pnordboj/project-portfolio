@@ -11,7 +11,6 @@
 .form-switch {
     display: flex;
     margin-left: 75%;
-    flex-direction: row;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }
