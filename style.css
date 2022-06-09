@@ -81,17 +81,11 @@ header {
 nav {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     max-width: 800px;
     gap: 2%;
     font-size: 2em;
-    margin: auto;
-}
-
-#navbar:visited, #navbar:active, #navabr {
-    text-decoration: none;
-}
-
-a #navbar {
     text-decoration: none;
 }
 
