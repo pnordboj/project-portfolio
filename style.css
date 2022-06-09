@@ -89,7 +89,7 @@ nav {
 
 hr {
     opacity: 70%;
-    width: 5%;
+    width: 1%;
 }
 footer {
     display: flex;
@@ -104,7 +104,7 @@ footer {
     margin-top: 150px;
 }
 
-a {
+nav a {
     text-decoration: none;
 }
 
