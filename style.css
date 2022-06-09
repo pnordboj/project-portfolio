@@ -87,7 +87,7 @@ nav {
     margin: auto;
 }
 
-#navbar {
+#navbar:visited, #navbar:active, #navabr {
     text-decoration: none;
 }
 
