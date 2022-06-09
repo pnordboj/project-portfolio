@@ -6,8 +6,7 @@ function darkMode() {
     const workContainer = document.querySelector(".school-work");
     const cardText = document.querySelector(".text-container");
     const body = document.querySelector("body");
-    const header = document.querySelector("header");
-    const footer = document.querySelector("footer");
+    const headFoot = document.querySelector("header", "footer");
 
     if (checkbox.checked === true) {
         body.style.backgroundColor = "#343d46";
@@ -15,15 +14,11 @@ function darkMode() {
 
         cardText.style.color = "#14181b"
 
-        header.style.backgroundColor = "#aaa9ad";
-        header.style.color = "#343d46";
-
-        footer.style.backgroundColor = "#aaa9ad";
-        footer.style.color = "#343d46";
+        headFoot.style.backgroundColor = "#aaa9ad";
+        headFoot.style.color = "#343d46";
 
         workContainer.style.transition = "0.5s";
-        header.style.transition = "0.5s";
-        footer.style.transition = "0.5s";
+        headFoot.style.transition = "0.5s";
 
         buttonText.innerHTML = "Dark Mode ON";
 
@@ -33,15 +28,11 @@ function darkMode() {
 
         cardText.style.color = ""
 
-        header.style.backgroundColor = "#343d46";
-        header.style.color = "#aaa9ad";
-
-        footer.style.backgroundColor = "#343d46";
-        footer.style.color = "#aaa9ad";
+        headFoot.style.backgroundColor = "#343d46";
+        headFoot.style.color = "#aaa9ad";
 
         workContainer.style.transition = "0.5s";
-        header.style.transition = "0.5s";
-        footer.style.transition = "0.5s";
+        headFoot.style.transition = "0.5s";
 
         buttonText.innerHTML = "Light Mode ON";
 
