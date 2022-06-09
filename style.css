@@ -13,6 +13,9 @@ html {
 /* --- Header --- */
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #343d46;
     color: #aaa9ad;
     position: fixed;
@@ -69,9 +72,7 @@ header {
     width: 28px;
     transform: translate3d(2px, 2px, 0);
   }
-.form-switch:active input:checked + i::after { 
-    transform: translate3d(16px, 2px, 0); 
-}
+.form-switch:active input:checked + i::after { transform: translate3d(16px, 2px, 0); }
 .form-switch input { 
     display: none; 
 }
@@ -80,14 +81,8 @@ header {
 }
 .form-switch input:checked + i::before { 
     transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0);
-}
-.form-switch input:checked + i::after { 
-    transform: translate3d(22px, 2px, 0); 
-}
-
-#header-h1 {
-    
-}
+ }
+.form-switch input:checked + i::after { transform: translate3d(22px, 2px, 0); }
 
 nav {
     display: flex;
@@ -97,6 +92,10 @@ nav {
     max-width: 800px;
     gap: 2%;
     font-size: 2em;
+    text-decoration: none;
+}
+
+a .main {
     text-decoration: none;
 }
 
