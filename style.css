@@ -91,6 +91,10 @@ nav {
     text-decoration: none;
 }
 
+nav #navbar {
+    text-decoration: none;
+}
+
 hr {
     opacity: 70%;
 }
