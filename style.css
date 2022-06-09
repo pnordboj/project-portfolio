@@ -6,6 +6,10 @@
     font-family: "Montserrat", "sans-serif";
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Provided by https://www.cssscript.com/realistic-ios-switch-pure-css/ */
 
 .form-switch {
@@ -74,6 +78,20 @@ header {
     right: 0;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    gap: 2%;
+    font-size: 24px;
+    left: 0;
+    right: 0;
+}
+
+hr {
+    opacity: 70%;
+    width: 5%;
+}
 footer {
     display: flex;
     justify-content: center;

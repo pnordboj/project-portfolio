@@ -5,24 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patrick | Portfolio</title>
+    <meta name="description" content="My Portfolio website, showcasing my work from school and information about me!">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header>
         <h1 id="header-h1">Patrick Portfolio</h1>
-            <label class="form-switch">
-                <input type="checkbox" id="checking" onclick="darkMode()">
-                <i></i>
-                <p id="buttonText">Light Mode ON</p>
-            </label>
+        <nav>
+            <a class="main" id="navbar" href="#about-header">
+                <label>About Me</label>
+            </a>
+            <hr>
+            <a class="main" id="navbar" href="#project-text">
+                <label>My Work</label>
+            </a>
+            <hr>
+            <a class="main" id="navbar" href="#contact-me">
+                <label>Contact Me</label>
+            </a>
+        </nav>
+        <label class="form-switch">
+            <input type="checkbox" id="checking" onclick="darkMode()">
+            <i></i>
+            <p id="buttonText">Light Mode ON</p>
+        </label>
     </header>
+    <section class="about">
+        <h2 class="main" id="about-header">About Me</h2>
+        <div class="about-card">
+            <h3></h3>
+            <p></p>
+        </div>
+    </section>
     <section class="school-work">
-        <h2 id="project-text">School Projects</h2>
+        <h2 class="main" id="project-text">School Projects</h2>
         <div class="work-card">
             <a href="https://gamehub.patricknj.dev" target="_blank"><img src="assets/gamehub-site.png" id="work-img gamehub-img" alt="GameHub Image"></a>
             <div class="text-container">
                 <p>First Project</p>
                 <p>Gamehub</p>
+                <p>A store page for games, with an smooth mobile first design.</p>
                 <a href="https://github.com/Noroff-FEU-Assignments/cross-course-project-pnordboj" target="_blank">
                     <p>Github Repo Page</p>
                 </a>
@@ -33,6 +55,7 @@
             <div class="text-container">
                 <p>Semester Project 1</p>
                 <p>Community Science Museum</p>
+                <p>Website for a science museum</p>
                 <a href="https://github.com/pnordboj/Semester-Project-1" target="_blank">
                     <p>Github Repo Page</p>
                 </a>
@@ -43,6 +66,7 @@
             <div class="text-container">
                 <p>Project Exam 1</p>
                 <p>Movie Corn</p>
+                <p>A Blog page for movie reviews, with an unique design</p>
                 <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-pnordboj" target="_blank">
                     <p>Github Repo Page</p>
                 </a>
