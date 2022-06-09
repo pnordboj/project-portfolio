@@ -87,6 +87,10 @@ nav {
     margin: auto;
 }
 
+#navbar {
+    text-decoration: none;
+}
+
 hr {
     opacity: 70%;
 }
