@@ -83,13 +83,12 @@ nav {
     flex-direction: row;
     max-width: 800px;
     gap: 2%;
-    font-size: 24px;
+    font-size: 2em;
     margin: auto;
 }
 
 hr {
     opacity: 70%;
-    width: 1%;
 }
 
 footer {
@@ -105,7 +104,7 @@ footer {
     margin-top: 150px;
 }
 
-a {
+a, a:active, a:visited {
     text-decoration: none;
 }
 
