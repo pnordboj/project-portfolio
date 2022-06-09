@@ -84,8 +84,7 @@ nav {
     max-width: 800px;
     gap: 2%;
     font-size: 24px;
-    left: 0;
-    right: 0;
+    margin: auto;
 }
 
 hr {
@@ -105,7 +104,7 @@ footer {
     margin-top: 150px;
 }
 
-a, a:active, a:visited {
+a {
     text-decoration: none;
 }
 
