@@ -6,10 +6,6 @@
     font-family: "Montserrat", "sans-serif";
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 /* --- Header --- */
 
 header {
@@ -147,13 +143,12 @@ a:active {
 
 /* --- Media Queries --- */
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 880px) {
 
+.form-switch {
+    margin-left: 10%;
 }
 
-/* Tablet */
-
-@media only screen and (min-width: 880px) {
 }
 
 /* Laptop */
