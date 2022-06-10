@@ -84,24 +84,6 @@ header {
  }
 .form-switch input:checked + i::after { transform: translate3d(22px, 2px, 0); }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    gap: 2%;
-    font-size: 2em;
-    text-decoration: none;
-}
-
-a .main {
-    text-decoration: none;
-}
-
-hr {
-    opacity: 70%;
-}
 
 footer {
     display: flex;
